@@ -10,13 +10,15 @@ font-family: 'Roboto Slab', serif;
 
 }
 #zen-intro {
-
+    
 }
 #zen-summary {
 
 }
 #zen-preamble {
-
+    background-image: url("texture1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 #zen-supporting {
 
@@ -44,20 +46,35 @@ font-family: 'Roboto Slab', serif;
 }
 /*Text Stylings below*/
 h1 {
-
+    font-family: 'Dosis', sans-serif;
 }
 h2 {
-
+    font-family: 'Dosis', sans-serif;
 }
 h3 {
-
+    font-family: 'Roboto', sans-serif;
 }
 p {
+    line-height: 1.15;
+    font-family: 'Roboto Slab', serif;
 
 }
 header {
-
+    grid-area: header;
+    padding: 30px;
+    position: relative;
+    top: -60px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 60px;
+    background-image: url("iceland.png");
+    background-color: black;
+    color:palegoldenrod;
+    font-weight: bolder;
 }
 footer {
 
+}
+body {
+    margin: 0;
 }
